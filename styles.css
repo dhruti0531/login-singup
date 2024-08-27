@@ -1,0 +1,118 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: url('background.jpg')no-repeat;
+    background-color: lightgoldenrodyellow;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+}
+
+header{
+    position: fixed;
+    top:0;
+    left:0;
+    width:100%;
+    padding: 20px 100px;
+    background: lightskyblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99;
+}
+.spiro {
+    font-size: 2em;
+    color: #fff;
+    user-select: none;
+}
+
+
+.container {
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    text-align: left;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4285f4;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #357ae8;
+}
+
+.qr-section {
+    margin-bottom: 20px;
+}
+
+.qr-code {
+    width: 200px;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.gpay-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #4285f4;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.gpay-button:hover {
+    background-color: #357ae8;
+}
+
+.button-image {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+
+}
+
